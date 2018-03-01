@@ -6,7 +6,7 @@ public class BoundedQueueTest {
 	
 	
 	@Test 
-	public void testConstructor() {
+	;public void testConstructor() {
 		BoundedQueue queue = new BoundedQueue(1);
 		BoundedQueue queue1 = new BoundedQueue(1);
 		assertEquals(queue.toString(), queue5.toString());
