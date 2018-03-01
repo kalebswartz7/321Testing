@@ -9,7 +9,7 @@ public class BoundedQueueTest {
 	public void testConstructor() {
 		BoundedQueue queue = new BoundedQueue(1);
 		BoundedQueue queue1 = new BoundedQueue(1);
-		assertEquals(queue.toString(), queue1.toString());
+		assertEquals(queue.toString(), queue5.toString());
 	}
 	@Test
 	public void testenQueue() {
